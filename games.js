@@ -52,7 +52,7 @@ About: Experiments and fun little projects. They are shared as they are: no upda
 // The link on the Games page only appears once you add a game here.
 
 var EXPERIMENTAL_GAMES = `
-Name: Example Experimental Game
-Description: This is an example. Replace it with your own experimental game.
-File: experimental/example-experiment.zip
+Name: Sniper owl
+Description: It's night, and you are an owl on a branch. And you are hungry! Aim with the left and right arrow keys until you hear the soft rustling of leaves or the patting of rabbit paws in front of you, and hit the spacebar to swoop down and catch the animal.
+File: experimental/sniper_owl.zip
 `;
