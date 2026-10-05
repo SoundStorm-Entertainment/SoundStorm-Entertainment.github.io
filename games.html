@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>My Games</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&family=Atkinson+Hyperlegible:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body data-page="games">
+<a class="skip" href="#content">Skip to content</a>
+<div class="topbar">
+  <a class="site-name" href="index.html" id="site-name">My Games</a>
+  <nav aria-label="Main">
+    <button type="button" class="menu-button" id="menu-button" aria-expanded="false" aria-controls="menu-list">Menu</button>
+    <ul class="menu-list" id="menu-list" hidden>
+      <li><a href="index.html" data-for="home">Home</a></li>
+      <li><a href="games.html" data-for="games">Games</a></li>
+    </ul>
+  </nav>
+</div>
+<main id="content" tabindex="-1">
+  <header class="hero">
+    <h1 id="page-title">Games</h1>
+  </header>
+  <p class="count" id="game-count"></p>
+  <div id="game-area"></div>
+  <p class="extra-link" id="experimental-link" hidden><a id="experimental-button" href="experimental-games.html"></a></p>
+</main>
+<footer><p id="footer-text"></p></footer>
+<script src="games.js"></script>
+<script src="site.js"></script>
+</body>
+</html>
